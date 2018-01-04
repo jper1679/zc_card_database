@@ -26,6 +26,7 @@ var dropdownFilter = {
             });
         });
 
+
         self.bindHandlers();
     },
 
@@ -143,6 +144,8 @@ $(document).ready(function() {
             }
         }
     });
+    
+    dropdownFilter.parseFilters();
 
     // Hi-res image modal
     $('body').on('click', '.card > a', function(e) {
